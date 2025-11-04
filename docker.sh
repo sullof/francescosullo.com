@@ -7,4 +7,4 @@ docker run --name francescosullo-com \
   -e VIRTUAL_HOST=francescosullo.com,www.francescosullo.com,sullo.co,francesco.sullo.co,www.sullo.co  \
   -e LETSENCRYPT_HOST=francescosullo.com,www.francescosullo.com,sullo.co,francesco.sullo.co,www.sullo.co \
   -e LETSENCRYPT_EMAIL=francescosullo@sameteam.co \
-  -v `pwd`/francescosullo.com/html:/usr/share/nginx/html:ro -d nginx
+  -v `pwd`/html:/usr/share/nginx/html:ro -d nginx
